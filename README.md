@@ -1,5 +1,5 @@
-Black and White MapRoad Segments MapFinal Sketch Map
-1. PyRoadmap
+
+1. PyRoadmap/pyRoadSegments
 PyRoadmap is a python script that generates a road map based on a 2d image. It takes satellite map images as input and generates a sketch map after calculations. We can split the script into three parts :
 
 1.   Image Manipulation - This involves loading the image then adjusting the image for better calculation.
