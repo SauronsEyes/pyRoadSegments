@@ -12,4 +12,4 @@ Firstly, it loads images using OpenCV (cv2). The loaded image is then down-sized
 Findings
 1.  The better way for segment identification would be to use a matrix to detect turns. The continuous path method works well only if the road is less complex and does not have too many connected turns. Also, because roads cannot be fully isolated from the environment using only image manipulation, the crawler confuses some environmental aspects such as houses, trees as part of the segment. As a result, scratchy patterns can be seen all over the rendered roadmap.
 2.  If the identification of segments has higher accuracy, linear regression would be a better approach to generate the final roadmap.
-3.  Just use ML. Life is easier that way.
+
